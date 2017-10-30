@@ -1,4 +1,58 @@
 header {
 	font-family: 'Lato', sans-serif;
 	background-color: #3b5998;
+	color: #fcf4f4;
+	display: inline-block;
+	width: 100%;
+}
+
+.header-wrapper {
+	width: 960px;
+	margin: 0 auto;
+	display: flex;
+		justify-content: space-between;
+}
+
+#brand,
+#header-form {
+	display: inline-flex;
+}
+
+#brand {
+	font-size: 1.2rem;
+}
+
+#brand h1 {
+	margin-bottom: 10px;
+}
+
+#header-form p {
+	display: flex;
+	flex-direction: column;
+	margin-right: 15px;
+	margin-bottom: 10px;
+}
+
+#header-form label {
+	font-size: .9rem;
+	padding-bottom: 5px;
+}
+
+#header-form span {
+	color: #c2c6ce;
+	padding-top: 5px;
+	font-size: .75rem;
+}
+
+#header-form input {
+	border: 1px solid #14306B;
+}
+
+.button-blue {
+	background-color:  #5772AC;
+	border: 1px solid #14306B;
+	color: #fcf4f4;
+	height: 25px;
+	margin-top: 36px;
+	font-size: .75em;
 }
