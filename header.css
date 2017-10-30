@@ -46,6 +46,7 @@ header {
 
 #header-form input {
 	border: 1px solid #14306B;
+	width: 160px;
 }
 
 .button-blue {
