@@ -1,3 +1,46 @@
 footer  {
 	font-family: 'Lato', sans-serif;
+	display: inline-block;
+	width: 100%;
+	font-size: .75rem;
+}
+
+footer ul {
+	list-style: none;
+	padding: 0;
+	display: -webkit-flex;
+	display: flex;
+}
+
+footer a:link {
+	text-decoration: none;
+}
+
+.footer-wrapper {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.languages {
+	display: flex;
+	justify-content: flex-start;
+}
+
+.languages li{
+	margin-right: 15px;
+}
+
+.languages button {
+		height: 25px;
+		align-self: center;
+}
+
+.site-map ul{
+	display: flex;
+	align-items: center;	
+	flex-wrap: wrap;
+}
+
+.site-map li {
+		flex-basis: 9%;
 }
