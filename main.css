@@ -1,8 +1,16 @@
 .main  {
 	font-family: 'Lato', sans-serif;
 	background-color: #edf0f5;
+	display: inline-block;
+	width: 100%;
 }
 
 .button-green {
 	background-color: #69a74e;
+	color: #fcf4f4;
+}
+
+.main-wrapper {
+	width: 960px;
+	margin: 0 auto;
 }
