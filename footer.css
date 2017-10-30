@@ -12,8 +12,9 @@ footer ul {
 	display: flex;
 }
 
-footer a:link {
+footer a {
 	text-decoration: none;
+	color: #3b5998;
 }
 
 .footer-wrapper {
@@ -27,12 +28,16 @@ footer a:link {
 }
 
 .languages li{
-	margin-right: 15px;
+	margin-right: 11px;
 }
 
 .languages button {
 		height: 25px;
 		align-self: center;
+}
+
+.site-map {
+	width: 860px;
 }
 
 .site-map ul{
@@ -43,4 +48,9 @@ footer a:link {
 
 .site-map li {
 		flex-basis: 9%;
+}
+
+.active, 
+.copyright {
+	color: #737373;
 }
