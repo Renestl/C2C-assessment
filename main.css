@@ -8,12 +8,17 @@
 .main-wrapper {
 	width: 960px;
 	margin: 0 auto;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
 	justify-content: space-between;
 }
 
 .connect,
 .signup {
+	-ms-flex-preferred-size: 50%;
 	flex-basis: 50%;
 }
 
@@ -45,6 +50,8 @@
 }
 
 .signup {
+	-webkit-box-pack: end;
+	    -ms-flex-pack: end;
 	justify-content: flex-end;
 }
 
@@ -59,6 +66,7 @@
 .signup input,
 .birthday-select select {
 	border: 1px solid #9AA9C3;
+	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 	border-radius: 4px;
 	padding: 5px;
@@ -66,6 +74,8 @@
 
 .signup input[type=text],
 .signup input[type=password] {
+		-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
 	margin: 5px 0;
 }
 
@@ -90,7 +100,11 @@
 }
 
 .birthday-select {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
 	align-items: center;
 }
 
@@ -141,6 +155,7 @@
 	border-color: #69a74e #48892C #144200;
 	color: #fcf4f4;
 	font-weight: 900;
+	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 	margin-top: 10px;
 	border-radius: 4px;
@@ -149,5 +164,8 @@
 }
 
 .button-green:hover {
+	background: -webkit-gradient(linear, left top, left bottom, from(#48892C), to(#28630F));
+	background: -webkit-linear-gradient(#48892C, #28630F);
+	background: -o-linear-gradient(#48892C, #28630F);
 	background: linear-gradient(#48892C, #28630F);
 }
