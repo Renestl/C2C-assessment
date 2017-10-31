@@ -8,7 +8,8 @@ footer  {
 footer ul {
 	list-style: none;
 	padding: 0;
-	display: -webkit-flex;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 }
 
@@ -23,8 +24,12 @@ footer a {
 }
 
 .languages {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: flex-start;
+	-webkit-box-pack: start;
+	    -ms-flex-pack: start;
+	        justify-content: flex-start;
 }
 
 .languages li{
@@ -32,8 +37,9 @@ footer a {
 }
 
 .languages button {
-		height: 25px;
-		align-self: center;
+	height: 25px;
+	-ms-flex-item-align: center;
+			align-self: center;
 }
 
 .site-map {
@@ -41,13 +47,19 @@ footer a {
 }
 
 .site-map ul{
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	align-items: center;	
-	flex-wrap: wrap;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;	
+	-ms-flex-wrap: wrap;	
+	    flex-wrap: wrap;
 }
 
 .site-map li {
-		flex-basis: 9%;
+	-ms-flex-preferred-size: 9%;
+			flex-basis: 9%;
 }
 
 .active, 
