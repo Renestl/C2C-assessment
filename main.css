@@ -147,6 +147,8 @@
 .create {
 	font-size: .75rem;
 	margin: 30px 0;
+	border-top: 1px solid #D0D0D0;
+	font-weight: 700;
 }
 
 .button-green {

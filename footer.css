@@ -30,6 +30,7 @@ footer a {
 	-webkit-box-pack: start;
 	    -ms-flex-pack: start;
 	        justify-content: flex-start;
+	border-bottom: 1px solid #D0D0D0;
 }
 
 .languages li{
@@ -37,9 +38,12 @@ footer a {
 }
 
 .languages button {
-	height: 25px;
+	height: 23px;
 	-ms-flex-item-align: center;
 			align-self: center;
+	background-color: #fcf4f4;
+	border: 1px solid #D0D0D0;
+	border-radius: 4px;
 }
 
 .site-map {
@@ -63,6 +67,7 @@ footer a {
 }
 
 .active, 
-.copyright {
+.copyright,
+.fa-plus {
 	color: #737373;
 }

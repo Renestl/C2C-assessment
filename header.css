@@ -6,6 +6,10 @@ header {
 	width: 100%;
 }
 
+.header {
+	border-bottom: 1px solid #14306B;
+}
+
 .header-wrapper {
 	width: 960px;
 	margin: 0 auto;
